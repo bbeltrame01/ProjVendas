@@ -1,0 +1,72 @@
+13/03/2022 21:26:37[TForm.Name]fvendas
+13/03/2022 21:26:37[TForm.Caption]Pedido de Vendas
+13/03/2022 21:26:37[ClassName]EFDException
+13/03/2022 21:26:37[Error][FireDAC][Comp][Clnt]-512. Connection is not defined for [qry_venda]. Possible reason: Connection and ConnectionName property values are both empty
+13/03/2022 21:28:41[TForm.Name]fvendas
+13/03/2022 21:28:41[TForm.Caption]Pedido de Vendas
+13/03/2022 21:28:41[ClassName]EAccessViolation
+13/03/2022 21:28:41[Error]Access violation at address 007B6249 in module 'Projeto_WK.exe'. Read of address 00000068
+13/03/2022 21:29:00[TForm.Name]fvendas
+13/03/2022 21:29:00[TForm.Caption]Pedido de Vendas
+13/03/2022 21:29:00[ClassName]EAccessViolation
+13/03/2022 21:29:00[Error]Access violation at address 007B6249 in module 'Projeto_WK.exe'. Read of address 00000068
+13/03/2022 21:38:09[TForm.Name]fvendas
+13/03/2022 21:38:09[TForm.Caption]Pedido de Vendas
+13/03/2022 21:38:09[ClassName]EFDException
+13/03/2022 21:38:09[Error][FireDAC][Comp][Clnt]-512. Connection is not defined for [qry_venda]. Possible reason: Connection and ConnectionName property values are both empty
+13/03/2022 21:45:47[TForm.Name]fbuscaprod
+13/03/2022 21:45:47[TForm.Caption]Busca de Produtos
+13/03/2022 21:45:47[ClassName]EConvertError
+13/03/2022 21:45:47[Error]'' is not a valid integer value
+13/03/2022 22:07:53[TForm.Name]dbg_itens
+13/03/2022 22:07:53[TForm.Caption]
+13/03/2022 22:07:53[ClassName]EDatabaseError
+13/03/2022 22:07:53[Error]Field 'proven_cod' cannot be modified
+13/03/2022 22:12:16[TForm.Name]dbg_itens
+13/03/2022 22:12:16[TForm.Caption]
+13/03/2022 22:12:16[ClassName]EDatabaseError
+13/03/2022 22:12:16[Error]Field 'Produto' cannot be modified
+13/03/2022 22:36:30[TForm.Name]dbg_itens
+13/03/2022 22:36:30[TForm.Caption]
+13/03/2022 22:36:30[ClassName]EMySQLNativeException
+13/03/2022 22:36:30[Error][FireDAC][Phys][MySQL] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+13/03/2022 22:52:55[TForm.Name]dbg_itens
+13/03/2022 22:52:55[TForm.Caption]
+13/03/2022 22:52:55[ClassName]EMySQLNativeException
+13/03/2022 22:52:55[Error][FireDAC][Phys][MySQL] Cannot add or update a child row: a foreign key constraint fails (`proj_wk`.`mov_prodven`, CONSTRAINT `fk_venda` FOREIGN KEY (`proven_codven`) REFERENCES `mov_vendas` (`ven_cod`))
+13/03/2022 22:54:20[TForm.Name]dbg_itens
+13/03/2022 22:54:20[TForm.Caption]
+13/03/2022 22:54:20[ClassName]EDatabaseError
+13/03/2022 22:54:20[Error]Field 'proven_codven' must have a value
+13/03/2022 23:21:29[TForm.Name]dbg_itens
+13/03/2022 23:21:29[TForm.Caption]
+13/03/2022 23:21:29[ClassName]EMySQLNativeException
+13/03/2022 23:21:29[Error][FireDAC][Phys][MySQL] Cannot add or update a child row: a foreign key constraint fails (`proj_wk`.`mov_prodven`, CONSTRAINT `fk_venda` FOREIGN KEY (`proven_codven`) REFERENCES `mov_vendas` (`ven_cod`))
+13/03/2022 23:27:12[TForm.Name]fvendas
+13/03/2022 23:27:12[TForm.Caption]Pedido de Vendas
+13/03/2022 23:27:12[ClassName]EAccessViolation
+13/03/2022 23:27:12[Error]Access violation at address 00408B56 in module 'Projeto_WK.exe'. Read of address 0000030B
+13/03/2022 23:35:20[TForm.Name]dbg_itens
+13/03/2022 23:35:20[TForm.Caption]
+13/03/2022 23:35:20[ClassName]EDatabaseError
+13/03/2022 23:35:20[Error]Field 'ven_cliente' must have a value
+14/03/2022 23:49:06[TForm.Name]fvendas
+14/03/2022 23:49:06[TForm.Caption]Pedido de Vendas
+14/03/2022 23:49:06[ClassName]EAccessViolation
+14/03/2022 23:49:06[Error]Access violation at address 007B60B8 in module 'Projeto_WK.exe'. Read of address 00000068
+14/03/2022 23:49:31[TForm.Name]fvendas
+14/03/2022 23:49:31[TForm.Caption]Pedido de Vendas
+14/03/2022 23:49:31[ClassName]EAccessViolation
+14/03/2022 23:49:31[Error]Access violation at address 007B60B8 in module 'Projeto_WK.exe'. Read of address 00000068
+14/03/2022 23:51:56[TForm.Name]fvendas
+14/03/2022 23:51:56[TForm.Caption]Pedido de Vendas
+14/03/2022 23:51:56[ClassName]EAccessViolation
+14/03/2022 23:51:56[Error]Access violation at address 007B60B8 in module 'Projeto_WK.exe'. Read of address 00000068
+15/03/2022 23:39:10[TForm.Name]dbg_itens
+15/03/2022 23:39:10[TForm.Caption]
+15/03/2022 23:39:10[ClassName]EDatabaseError
+15/03/2022 23:39:10[Error]qry_proven: Dataset not in edit or insert mode
+15/03/2022 23:52:09[TForm.Name]dbg_itens
+15/03/2022 23:52:09[TForm.Caption]
+15/03/2022 23:52:09[ClassName]EMySQLNativeException
+15/03/2022 23:52:09[Error][FireDAC][Phys][MySQL] Cannot add or update a child row: a foreign key constraint fails (`proj_wk`.`mov_prodven`, CONSTRAINT `fk_venda` FOREIGN KEY (`proven_codven`) REFERENCES `mov_vendas` (`ven_cod`))
